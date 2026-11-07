@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+
+    <!-- Metadata -->
+    <PropertyGroup>
+        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+        <IsPackable>false</IsPackable>
+        <TargetFramework>net10.0-windows7.0</TargetFramework>
+    </PropertyGroup>
+
+    <!-- Build Parameters -->
+    <!-- Manifest fields (see https://github.com/goatcorp/DalamudPackager/blob/827d88dc/DalamudPackager/DalamudPackager.cs#L420) -->
+    <PropertyGroup>
+        <Author>Kirbo</Author>
+        <Name>Kirbo Toolbox</Name>
+        <Version>0.0.2.6</Version>
+        <Punchline>Kirbo's badly written code.</Punchline>
+        <Description>Kirbo's playground plugin.</Description>
+        <RepoUrl>https://github.com/BrakusTapus/KirboToolbox</RepoUrl>
+        <Tags>toolbox;plugin;kirbo</Tags>
+        <CategoryTags>debug;test</CategoryTags>
+    </PropertyGroup>    
+
+    <ItemGroup>
+        <Content Include="Assets\goat.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Assets\kirbo.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Assets\logo.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ECommons" Version="3.2.1.26" />
+        <PackageReference Update="DotNet.ReproducibleBuilds" Version="2.0.5" />
+    </ItemGroup>
+</Project>
