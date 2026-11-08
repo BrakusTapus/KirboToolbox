@@ -1,0 +1,26 @@
+{
+  "Author": "Kirbo",
+  "Name": "Kirbo Toolbox",
+  "InternalName": "KirboToolbox",
+  "AssemblyVersion": "0.0.2.6",
+  "Description": "Kirbo's playground plugin.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/BrakusTapus/KirboToolbox",
+  "Tags": [
+    "toolbox",
+    "plugin",
+    "kirbo"
+  ],
+  "CategoryTags": [
+    "debug",
+    "test"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/BrakusTapus/KirboToolbox/main/KirboToolbox/Assets/kirbo.png",
+  "Punchline": "Kirbo's badly written code.",
+  "AcceptsFeedback": true
+}
